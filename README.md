@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+<h4 align="center">
+  <img src="https://github.com/gustavo-nt/letmeask/blob/master/src/assets/images/logo.svg" alt="logo" height="50"/>
+</h4>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    🚀 Letmeask
+</h1>
 
-## Available Scripts
+<p align="center">Aplicação desenvolvida durante a NLW6 na trilha de React</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img src="https://img.shields.io/badge/react%20version-17.0.2-informational"/>
+  <img src="https://img.shields.io/badge/last%20commit-june-blue" />
+  <img src="https://img.shields.io/badge/license-MIT-success"/>
+</p>
 
-### `yarn start`
+<p align="center">
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-pré-requisitos">Pré-Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Lincença</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3 align="center"> 
+🚧  Finalizado  🚧
+</h3>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 📎 Features 
 
-### `yarn test`
+- [x] Criação de uma sala
+- [x] Participar de uma sala já existente
+- [x] Listagem das Perguntas
+- [x] Destaque da Pergunta
+- [x] Quantidade de Likes da Pergunta
+- [x] Possibilidade de Deletar a pergunta
+- [x] Marcar a pergunta já respondida
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### 💻 Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O Letmeask é uma aplicação que visa facilitar a comunicação entre o responsável pela live e as pessoas que estão assistindo a mesma, dessa forma, o administrator libera o código da sala para seus seguidores poderem adentrar na mesma e realizarem suas dúvidas pela plataforma, dessa forma, as perguntas com mais 'likes' podem ser respondidas primeiro, tornando esse dialogo mais flexivo. Esse Projeto foi desenvolvido durante a semana do Next Level Week 6ª Edição. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ✅ Demonstração
+<img src="https://github.com/gustavo-nt/letmeask/blob/master/src/assets/images/room-users.PNG" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⚙ Pré-requisitos
 
-### `yarn eject`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e/ou [Yarn](https://yarnpkg.com/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 📗 Rodando a Aplicação (web)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone este repositório
+$ git clone https://github.com/gustavo-nt/letmeask
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Instale as dependências
+$ yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Execute a aplicação
+$ yarn start
 
-## Learn More
+# Executar a aplicação de produção
+$ yarn build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🚀 Tecnologias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- React
+- Typescript
+
+### 📕 Bibliotecas
+
+Esse projeto foi utilizou das seguintes lib:
+
+- firebase
+- react-dom
+- node-sass
+- classnames
+
+### 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+<hr/>
+
+Feito por Gustavo Teixeira
