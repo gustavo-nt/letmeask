@@ -1,5 +1,5 @@
 <h4 align="center">
-  <img src="https://github.com/gustavo-nt/letmeask/blob/master/src/assets/images/logo.svg" alt="logo" height="50"/>
+  <img src="https://github.com/gustavo-nt/letmeask/blob/master/src/assets/images/logo.svg" alt="logo" height="70"/>
 </h4>
 
 <h1 align="center">
